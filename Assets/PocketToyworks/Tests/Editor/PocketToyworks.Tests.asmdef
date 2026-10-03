@@ -1,0 +1,1 @@
+{"name": "PocketToyworks.Tests", "references": ["PocketToyworks.Core", "PocketToyworks.Runtime", "Unity.TextMeshPro"], "includePlatforms": ["Editor"], "optionalUnityReferences": ["TestAssemblies"]}

@@ -1,0 +1,132 @@
+{
+    "id": "tutorial-01",
+    "title": "Fit • park • rotate",
+    "teaching": "Follow the glowing shapes.",
+    "version": 1,
+    "activeLimit": 1,
+    "pieces": [
+        {
+            "id": "level-03-m0-p0",
+            "color": 0,
+            "cells": [
+                {
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "x": 2,
+                    "y": 1
+                }
+            ]
+        },
+        {
+            "id": "level-03-m0-p1",
+            "color": 1,
+            "cells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                }
+            ]
+        },
+        {
+            "id": "level-03-m0-p2",
+            "color": 2,
+            "cells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                }
+            ]
+        }
+    ],
+    "moulds": [
+        {
+            "id": "level-03-m0",
+            "toyId": "pip-robot",
+            "mask": 53213
+        }
+    ],
+    "lanes": [
+        {
+            "pieces": [
+                "level-03-m0-p1",
+                "level-03-m0-p0"
+            ]
+        },
+        {
+            "pieces": [
+                "level-03-m0-p2"
+            ]
+        },
+        {
+            "pieces": []
+        }
+    ],
+    "solution": [
+        {
+            "reserve": false,
+            "source": 0,
+            "target": 0,
+            "x": 2,
+            "y": 0,
+            "rotation": 0
+        },
+        {
+            "reserve": true,
+            "source": 0,
+            "target": 0,
+            "x": 0,
+            "y": 0,
+            "rotation": 0
+        },
+        {
+            "reserve": false,
+            "source": 1,
+            "target": 0,
+            "x": 2,
+            "y": 2,
+            "rotation": 0
+        },
+        {
+            "reserve": false,
+            "source": 3,
+            "target": 0,
+            "x": 0,
+            "y": 0,
+            "rotation": 1
+        }
+    ]
+}

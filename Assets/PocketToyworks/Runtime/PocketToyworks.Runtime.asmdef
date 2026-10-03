@@ -1,0 +1,1 @@
+{"name": "PocketToyworks.Runtime", "rootNamespace": "PocketToyworks", "references": ["PocketToyworks.Core", "Unity.InputSystem", "Unity.ugui", "Unity.TextMeshPro"]}

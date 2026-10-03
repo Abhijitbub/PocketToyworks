@@ -1,0 +1,277 @@
+{
+    "id": "level-09",
+    "title": "Choose your fit",
+    "teaching": "Two moulds, one choice. Park a front piece to reveal the next.",
+    "version": 1,
+    "activeLimit": 2,
+    "pieces": [
+        {
+            "id": "level-09-m0-p0",
+            "color": 0,
+            "cells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 0,
+                    "y": 2
+                }
+            ]
+        },
+        {
+            "id": "level-09-m0-p1",
+            "color": 1,
+            "cells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 0,
+                    "y": 2
+                }
+            ]
+        },
+        {
+            "id": "level-09-m0-p2",
+            "color": 2,
+            "cells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                }
+            ]
+        },
+        {
+            "id": "level-09-m0-p3",
+            "color": 3,
+            "cells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "id": "level-09-m1-p0",
+            "color": 1,
+            "cells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                }
+            ]
+        },
+        {
+            "id": "level-09-m1-p1",
+            "color": 2,
+            "cells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                }
+            ]
+        },
+        {
+            "id": "level-09-m1-p2",
+            "color": 3,
+            "cells": [
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 2
+                }
+            ]
+        },
+        {
+            "id": "level-09-m1-p3",
+            "color": 0,
+            "cells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                }
+            ]
+        }
+    ],
+    "moulds": [
+        {
+            "id": "level-09-m0",
+            "toyId": "pip-robot",
+            "mask": 61427
+        },
+        {
+            "id": "level-09-m1",
+            "toyId": "pip-robot",
+            "mask": 32767
+        }
+    ],
+    "lanes": [
+        {
+            "pieces": [
+                "level-09-m0-p0",
+                "level-09-m0-p1",
+                "level-09-m0-p3",
+                "level-09-m1-p2"
+            ]
+        },
+        {
+            "pieces": [
+                "level-09-m1-p0",
+                "level-09-m1-p3"
+            ]
+        },
+        {
+            "pieces": [
+                "level-09-m0-p2",
+                "level-09-m1-p1"
+            ]
+        }
+    ],
+    "solution": [
+        {
+            "reserve": true,
+            "source": 0,
+            "target": 0,
+            "x": 0,
+            "y": 0,
+            "rotation": 0
+        },
+        {
+            "reserve": false,
+            "source": 0,
+            "target": 0,
+            "x": 1,
+            "y": 1,
+            "rotation": 1
+        },
+        {
+            "reserve": false,
+            "source": 3,
+            "target": 0,
+            "x": 0,
+            "y": 0,
+            "rotation": 0
+        },
+        {
+            "reserve": false,
+            "source": 2,
+            "target": 0,
+            "x": 1,
+            "y": 2,
+            "rotation": 2
+        },
+        {
+            "reserve": false,
+            "source": 0,
+            "target": 0,
+            "x": 3,
+            "y": 2,
+            "rotation": 3
+        },
+        {
+            "reserve": false,
+            "source": 1,
+            "target": 1,
+            "x": 0,
+            "y": 0,
+            "rotation": 0
+        },
+        {
+            "reserve": false,
+            "source": 2,
+            "target": 1,
+            "x": 2,
+            "y": 0,
+            "rotation": 1
+        },
+        {
+            "reserve": false,
+            "source": 0,
+            "target": 1,
+            "x": 2,
+            "y": 1,
+            "rotation": 2
+        },
+        {
+            "reserve": false,
+            "source": 1,
+            "target": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 3
+        }
+    ]
+}
